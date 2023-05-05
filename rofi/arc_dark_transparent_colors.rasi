@@ -1,0 +1,34 @@
+/*******************************************************
+ * ROFI Arch Dark Transparent colors for EndeavourOS
+ * Maintainer: joekamprad <joekamprad@endeavouros.com>
+ *******************************************************/
+* {
+    selected-normal-foreground:  rgba ( 254, 128, 25, 100 % );
+    foreground:                  rgba ( 168, 153, 132, 100 % );
+    normal-foreground:           @foreground;
+    alternate-normal-background: rgba ( 80, 73, 69, 1 % );
+    red:                         rgba ( 204, 36, 29, 100 % );
+    selected-urgent-foreground:  rgba ( 235, 219, 178, 100 % );
+    blue:                        rgba ( 69, 133, 136, 100 % );
+    urgent-foreground:           rgba ( 251, 73, 52, 100 % );
+    alternate-urgent-background: rgba ( 102, 92, 84, 90 % );
+    active-foreground:           rgba ( 131, 165, 152, 100 % );
+    lightbg:                     rgba ( 235, 219, 178, 100 % );
+    selected-active-foreground:  rgba ( 235, 219, 178, 100 % );
+    alternate-active-background: rgba ( 80, 73, 69, 88 % );
+    background:                  rgba ( 60, 56, 54, 88 % );
+    alternate-normal-foreground: @foreground;
+    normal-background:           rgba ( 60, 56, 54, 1 % );
+    lightfg:                     rgba ( 124, 111, 100, 100 % );
+    selected-normal-background:  rgba ( 80, 73, 69, 40 % );
+    border-color:                rgba ( 60, 56, 54, 100 % );
+    spacing:                     2;
+    separatorcolor:              rgba ( 60, 56, 54, 1 % );
+    urgent-background:           rgba ( 102, 92, 84, 15 % );
+    selected-urgent-background:  rgba ( 251, 73, 52, 100 % );
+    alternate-urgent-foreground: @urgent-foreground;
+    background-color:            rgba ( 0, 0, 0, 0 % );
+    alternate-active-foreground: @active-foreground;
+    active-background:           rgba ( 80, 73, 69, 17 % );
+    selected-active-background:  rgba ( 80, 73, 69, 100 % );
+}
